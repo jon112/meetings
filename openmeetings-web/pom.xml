@@ -361,7 +361,8 @@
 						<logback.ContextSelector>org.red5.logging.LoggingContextSelector</logback.ContextSelector>
 						<catalina.useNaming>true</catalina.useNaming>
 					</systemPropertyVariables>
-					<skip>${maven.test.skip}</skip>
+					<!-- <skip>${maven.test.skip}</skip> -->
+					<skipTests>true</skipTests>
 				</configuration>
 			</plugin>
 		</plugins>
